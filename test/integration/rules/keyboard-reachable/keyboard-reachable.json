@@ -1,0 +1,6 @@
+{
+  "description": "keyboard-reachable test",
+  "rule": "keyboard-reachable",
+  "violations": [["#onclick-attr-no-tabindex"], ["#css-pointer-no-tabindex"]],
+  "passes": ["#onclick-attr-tabindex"]
+}

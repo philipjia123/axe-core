@@ -1,0 +1,14 @@
+{
+  "id": "keyboard-reachable",
+  "selector": ":not(button):not(a):not(input):not(textarea):not(select):not(area)",
+  "matches": "clickable-elements-matches.js",
+  "tags": [
+  ],
+  "metadata": {
+    "description": "",
+    "help": ""
+  },
+  "all": ["is-focusable"],
+  "any": [],
+  "none": []
+}
