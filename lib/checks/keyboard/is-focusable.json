@@ -1,0 +1,11 @@
+{
+  "id": "is-focusable",
+  "evaluate": "is-focusable.js",
+  "metadata": {
+    "impact": "serious",
+    "messages": {
+      "pass": "Element is focusable",
+      "fail": "Element is not focusable"
+    }
+  }
+}
