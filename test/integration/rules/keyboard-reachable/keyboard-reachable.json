@@ -1,6 +1,6 @@
 {
   "description": "keyboard-reachable test",
   "rule": "keyboard-reachable",
-  "violations": [["#violation1"], ["#violation2"]],
+  "violations": [["#violation1"], ["#violation2"], ["#violation3"], ["#violation4"]],
   "passes": [["#pass1"], ["#pass2"]]
 }
