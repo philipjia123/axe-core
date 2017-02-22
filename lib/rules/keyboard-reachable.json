@@ -10,5 +10,8 @@
   },
   "all": ["is-focusable"],
   "any": [],
-  "none": []
+  "none": [
+    "invalidrole",
+    "abstractrole"
+  ]
 }
