@@ -1,0 +1,17 @@
+{
+  "id": "captcha",
+  "selector": "[id]",
+  "matches": "captcha-matches.js",
+  "excludeHidden": false,
+  "tags": [
+  ],
+  "metadata": {
+    "description": "",
+    "help": ""
+  },
+  "all": [],
+  "any": [],
+  "none": [
+    "exists"
+  ]
+}
