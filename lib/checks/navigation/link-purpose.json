@@ -1,0 +1,24 @@
+{
+  "id": "link-purpose",
+  "options": {
+    "blacklistPhrases": {
+      "en": [
+        "click here"
+      ],
+      "es": [
+        "haz clic aqu\u00ed"
+      ]
+    },
+    "stopwords": {
+
+    }
+  },
+  "evaluate": "link-purpose.js",
+  "metadata": {
+    "impact": "serious",
+    "messages": {
+      "pass": "Value of lang attribute is included in the list of valid languages",
+      "fail": "Value of lang attribute not included in the list of valid languages"
+    }
+  }
+}
