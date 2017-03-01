@@ -1,0 +1,15 @@
+{
+  "id": "link-purpose",
+  "selector": "a[href]:not([role=\"button\"]), [role=link][href]",
+  "tags": [
+  ],
+  "metadata": {
+    "description": "",
+    "help": ""
+  },
+  "all": [
+    "link-purpose"
+  ],
+  "any": [],
+  "none": []
+}
