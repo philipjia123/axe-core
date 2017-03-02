@@ -3,22 +3,46 @@
   "options": {
     "blacklistPhrases": {
       "en": [
-        "click here"
+        "click here",
+        "learn more",
+        "tap here"
       ],
       "es": [
         "haz clic aqu\u00ed"
       ]
     },
     "stopwords": {
-
+      "en": [
+        "a",
+        "about",
+        "an",
+        "click",
+        "go",
+        "here",
+        "it",
+        "learn",
+        "link",
+        "more",
+        "page",
+        "read",
+        "tap",
+        "that",
+        "the",
+        "this",
+        "to"
+      ],
+      "es": [
+        "clic",
+        "haz"
+      ]
     }
   },
   "evaluate": "link-purpose.js",
   "metadata": {
     "impact": "serious",
     "messages": {
-      "pass": "Value of lang attribute is included in the list of valid languages",
-      "fail": "Value of lang attribute not included in the list of valid languages"
+      "pass": "TODO",
+      "fail": "TODO"
     }
   }
 }
