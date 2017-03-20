@@ -8,7 +8,7 @@
         "tap here"
       ],
       "es": [
-        "haz clic aqu\u00ed"
+        "haz clic aquí"
       ]
     },
     "stopwords": {
@@ -17,6 +17,7 @@
         "about",
         "an",
         "click",
+        "do",
         "go",
         "here",
         "it",
@@ -29,9 +30,11 @@
         "that",
         "the",
         "this",
-        "to"
+        "to",
+        "todo"
       ],
       "es": [
+        "aquí",
         "clic",
         "haz"
       ]

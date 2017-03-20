@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>link-purpose test</title>
+	<meta charset="utf8">
+	<link rel="stylesheet" type="text/css" href="/node_modules/mocha/mocha.css" />
+	<script src="/node_modules/mocha/mocha.js"></script>
+	<script src="/node_modules/chai/chai.js"></script>
+	<script src="/axe.js"></script>
+	<script>
+		mocha.setup({
+			timeout: 10000,
+			ui: 'bdd'
+		});
+		var assert = chai.assert;
+	</script>
+</head>
+<body>
+<div id="test-scope">
+	<a href="https://www.google.com" id="pass1">Learn more about corgi ranching</a>
+	<a href="https://www.google.com" id="pass2">
+		<img alt="Learn more about corgi ranching">
+	</a>
+</div>
+<div id="mocha"></div>
+<script src="link-purpose.js"></script>
+<script src="/test/integration/adapter.js"></script>
+</body>
+</html>

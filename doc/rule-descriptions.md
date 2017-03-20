@@ -36,6 +36,7 @@
 | layout-table | Ensures presentational &lt;table&gt; elements do not use &lt;th&gt;, &lt;caption&gt; elements or the summary attribute | wcag2a, wcag131 | true |
 | link-in-text-block | Links can be distinguished without relying on color | experimental, wcag2a, wcag141 | false |
 | link-name | Ensures links have discernible text | wcag2a, wcag111, wcag412, section508, section508.22.a | true |
+| link-purpose |  |  | true |
 | list | Ensures that lists are structured correctly | wcag2a, wcag131 | true |
 | listitem | Ensures &lt;li&gt; elements are used semantically | wcag2a, wcag131 | true |
 | marquee | Ensures &lt;marquee&gt; elements are not used | wcag2a, wcag222 | true |
