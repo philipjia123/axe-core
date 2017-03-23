@@ -1,0 +1,11 @@
+{
+  "id": "required",
+  "evaluate": "required.js",
+  "metadata": {
+    "impact": "serious",
+    "messages": {
+      "pass": "Element has matching required and aria-required attributes",
+      "fail": "Element does not have matching required and aria-required attributes"
+    }
+  }
+}
