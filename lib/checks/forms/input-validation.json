@@ -1,0 +1,13 @@
+{
+  "id": "input-validation",
+  "options": {
+  },
+  "evaluate": "input-validation.js",
+  "metadata": {
+    "impact": "serious",
+    "messages": {
+      "pass": "TODO",
+      "fail": "TODO"
+    }
+  }
+}

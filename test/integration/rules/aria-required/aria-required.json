@@ -1,0 +1,13 @@
+{
+  "description": "aria-required test",
+  "rule": "aria-required",
+  "violations": [
+    ["#fail1"],
+    ["#fail2"],
+    ["#fail3"]
+  ],
+  "passes": [
+    ["#pass1"],
+    ["#pass2"]
+  ]
+}

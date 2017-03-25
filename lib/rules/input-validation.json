@@ -1,0 +1,17 @@
+{
+  "id": "input-validation",
+  "selector": "form input:not([type='hidden']):not([type='image']):not([type='button']):not([type='submit']):not([type='reset']), form select, form textarea",
+  "tags": [
+  ],
+  "metadata": {
+    "description": "",
+    "help": ""
+  },
+  "all": [
+    "input-validation"
+  ],
+  "any": [
+  ],
+  "none": [
+  ]
+}
