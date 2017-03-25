@@ -1,6 +1,7 @@
 {
   "id": "aria-required",
-  "selector": "input[required]:not([type='hidden']):not([type='image']):not([type='button']):not([type='submit']):not([type='reset']), input[aria-required]:not([type='hidden']):not([type='image']):not([type='button']):not([type='submit']):not([type='reset']), select[required], select[aria-required], textarea[required], textarea[aria-required]",
+  "selector": "input:not([type='hidden']):not([type='image']):not([type='button']):not([type='submit']):not([type='reset']), select, textarea",
+  "matches": "aria-required-matches.js",
   "tags": [
   ],
   "metadata": {
