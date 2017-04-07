@@ -6,6 +6,7 @@
 | aria-required-attr | Ensures elements with ARIA roles have all required ARIA attributes | wcag2a, wcag411, wcag412 | true |
 | aria-required-children | Ensures elements with an ARIA role that require child roles contain them | wcag2a, wcag131 | true |
 | aria-required-parent | Ensures elements with an ARIA role that require parent roles are contained by them | wcag2a, wcag131 | true |
+| aria-required |  |  | true |
 | aria-roles | Ensures all elements with a role attribute use a valid value | wcag2a, wcag131, wcag411, wcag412 | true |
 | aria-valid-attr-value | Ensures all ARIA attributes have valid values | wcag2a, wcag131, wcag411, wcag412 | true |
 | aria-valid-attr | Ensures attributes that begin with aria- are valid ARIA attributes | wcag2a, wcag411 | true |
@@ -30,6 +31,7 @@
 | image-alt | Ensures &lt;img&gt; elements have alternate text or a role of none or presentation | wcag2a, wcag111, section508, section508.22.a | true |
 | image-redundant-alt | Ensure button and link text is not repeated as image alternative | best-practice | true |
 | input-image-alt | Ensures &lt;input type=&quot;image&quot;&gt; elements have alternate text | wcag2a, wcag111, section508, section508.22.a | true |
+| input-validation |  |  | true |
 | keyboard-reachable |  |  | true |
 | label-title-only | Ensures that every form element is not solely labeled using the title or aria-describedby attributes | best-practice | false |
 | label | Ensures every form element has a label | wcag2a, wcag332, wcag131, section508, section508.22.n | true |
