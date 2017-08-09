@@ -382,6 +382,20 @@ describe('Audit', function () {
 				done();
 			}, isNotCalled);
 		});
+		it('should use selectors for rules specified by the options', function (done) {
+			fixture.innerHTML = '<blink>BAD BLINKY ELEMENT</blink>';
+
+			a.run({ include: [fixture] }, {
+				rules: {
+					'positive3': {
+						selector: '#FAKE-ID'
+					}
+				}
+			}, function (results) {
+				assert.equal(results[3].nodes.length, 0);
+				done();
+			}, isNotCalled);
+		});
 		it('should call the rule\'s run function', function (done) {
 			var targetRule = mockRules[mockRules.length - 1],
 				rule = axe.utils.findBy(a.rules, 'id', targetRule.id),
