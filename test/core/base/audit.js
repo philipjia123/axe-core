@@ -456,6 +456,24 @@ describe('Audit', function () {
 				done();
 			}, isNotCalled);
 		});
+		it('should use tags attribute specified by options', function (done) {
+			fixture.innerHTML = '<blink>BAD BLINKY ELEMENT</blink>';
+
+			a.run({ include: [fixture] }, {
+				runOnly: {
+					type: 'tag',
+					values: ['custom']
+				},
+				rules: {
+					'positive3': {
+						tags: ['custom']
+					}
+				}
+			}, function (results) {
+				assert.equal(results.length, 1);
+				done();
+			}, isNotCalled);
+		});
 		it('should call the rule\'s run function', function (done) {
 			var targetRule = mockRules[mockRules.length - 1],
 				rule = axe.utils.findBy(a.rules, 'id', targetRule.id),
